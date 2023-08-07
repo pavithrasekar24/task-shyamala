@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Task 1</a>
+      <a href="/page2.html">Task 2 </a>
+    </nav>
+
+    <main>
+      <form name="task">
+        <div>
+          <br /><br />
+          <textarea
+            placeholder="Paste your Input JSON"
+            name="userValue"
+            rows="5"
+            cols="50"
+          ></textarea>
+        </div>
+
+        <div>
+          <button type="button" onclick="handleGenerate()">Generate</button>
+          <br /><br />
+          <textarea
+            placeholder="Output HTML"
+            name="displayOutput"
+            rows="5"
+            cols="50"
+          ></textarea>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
